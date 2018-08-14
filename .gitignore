@@ -1,4 +1,4 @@
-# Compiled class file
+# Compile/home/snoopd class file
 *.class
 
 # Log file
@@ -9,6 +9,7 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+.idea
 
 # Package Files #
 *.jar
