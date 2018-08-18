@@ -4,13 +4,17 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>gift.muna</groupId>
   <artifactId>muna-web</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>muna-web</name>
   <description>Muna Inc. web application</description>
+
+  <parent>
+    <groupId>gift.muna</groupId>
+    <artifactId>muna-core</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
 
   <build>
     <plugins>
